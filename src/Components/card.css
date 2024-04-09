@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#root {
+    background: url("../bcg.jpg");
+    background-size: cover;
+}
+
+.App {
+
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container {
+    background: url("./bcg2.jpg");
+    margin: 3vw;
+    display: flex;
+    flex-direction: column;
+    /* border: .31vw solid forestgreen; */
+    border-radius: 12px;
+    gap: 3vw;
+    width: 50%;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    border-radius: 7vw 0vw 7vw 0vw;
+}
+
+.heading {
+    font-size: 3vw;
+    font-family: "fangsong";
+    font-weight: 700;
+    padding: 1vw;
+}
+
+.content {
+    display: flex;
+    margin-left: 2vw;
+    width: 100%;
+    margin-right: 2vw;
+    flex-direction: column;
+    gap: 2vw;
+    position: relative;
+    top: -4vw;
+}
+
+.name {
+    position: relative;
+    right: 1vw;
+}
+
+.quote {
+    padding: 1vw;
+    font-size: 1.56vw;
+}
+
+.copy img {
+    width: 100%;
+    height: 100%;
+}
+
+.author {
+    font-size: 1.5vw;
+    font-style: italic;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+
+}
+
+.cpy {
+    z-index: 1;
+    position: absolute;
+    height: 2vw;
+    width: 2vw;
+    /* right: 22vw; */
+    border-radius: 50%;
+    top: -4vw;
+    right: -22vw;
+    position: relative;
+
+    /* background: rgb(173, 103, 46); */
+}
+
+.cpy img {
+    width: 100%;
+    height: 100%;
+}
+
+.copy {
+    font-size: 1.3vw;
+    border: none;
+    cursor: pointer;
+    height: 3vw;
+    background: url("./bcg2.jpg");
+    /* border-radius: 0vw 1vw 0vw 1vw; */
+    width: 3vw;
+    padding: 0.441vw;
+    border-radius: 50%;
+    color: white;
+}
+
+@media (max-width:600px) {
+    .container {
+        height: fit-content;
+        width: 85%;
+        justify-content: flex-start;
+        padding: 2vw;
+    }
+
+    .cpy {
+        width: 7vw;
+        height: 7vw;
+        position: relative;
+        right: -31vw;
+
+    }
+
+
+
+
+    .heading {
+        font-size: 7vw;
+        margin: 5vw;
+    }
+
+    .content {
+        gap: 8vw;
+    }
+
+    .copy {
+        width: 8vw;
+        height: 8vw;
+        padding: 1vw;
+        font-size: 4vw;
+        border-radius: 50%;
+    }
+
+    .quote {
+        font-size: 5vw;
+        /* color: rgb(238, 107, 0); */
+        font-style: italic;
+        text-align: left;
+        padding: 4vw;
+        position: relative;
+        top: -6vw;
+    }
+
+
+    .author {
+        font-size: 4vw;
+    }
+}

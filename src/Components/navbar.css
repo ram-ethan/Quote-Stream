@@ -1,0 +1,10 @@
+.nav-item {
+    font-size: 1.7vw !important;
+}
+
+.navbar-brand {
+    font-size: 2vw;
+    font-weight: 400;
+    /* fo-family: 'Lntucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: fantasy;
+}

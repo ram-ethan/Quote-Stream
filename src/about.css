@@ -1,0 +1,83 @@
+.aboutfeature {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Orca.jpg);
+    background-size: cover;
+}
+
+.searchbar {
+    margin: 3vw;
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    width: 36%;
+    height: 3vw;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.search-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    height: 26rem;
+    width: 32rem;
+    background-color: brown;
+    border: 10px solid red;
+}
+
+.srchbtn {
+    width: 7vw;
+    font-size: 1.3vw;
+    height: 3vw;
+    border-radius: 7px;
+    padding: 0vw;
+    background: #0c3a3d;
+    color: azure;
+    margin: 1vw;
+    font-style: unset;
+    font-family: revert;
+}
+
+@media (max-width:600px) {
+    .aboutfeature {
+        height: 100vh;
+    }
+
+    .searchbar input {
+        height: 9vw;
+        width: 53vw;
+        font-size: 4vw;
+        font-style: italic;
+    }
+
+    .searchbar button {
+        height: 9vw;
+        width: 23vw;
+        font-size: 3vw;
+    }
+
+    .search-content {
+        flex-direction: column;
+        gap: 5vw;
+    }
+}
